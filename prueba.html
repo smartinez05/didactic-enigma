@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        //Variables
+        var nombre = "sebas";
+        var edad = 17;
+        var soltero = true;
+        var deporte;
+        var wtf = null;
+        var numero = "345.45";
+        var ciudad = "medellin";
+
+        // Operadores matematicos
+        numero -= 8;
+        console.log(numero);
+
+        // Concatenación
+         console.log("Mi nombre es " + nombre + " y tengo " + edad + " años");
+
+        // TypeOf
+        console.log(typeof(nombre))
+
+        // Conversion de variables
+        //alert("La variable ciudad es de tipo " + typeof(ciudad))
+        //implicita
+        alert("La variable numero es de tipo " + typeof(numero))
+        //solo se cambia ._.
+        //explicita
+        // Con parseFloat se pueden cambiar a numero decimal
+        numero = parseFloat(numero);
+        alert(numero + " " + typeof(numero))
+        // Con parseInt se pueden cambiar a numero entero, se aproxima
+        numero = parseInt(numero);
+        alert(numero + " " + typeof(numero))
+        
+
+    </script>
+
+</body>
+</html>
