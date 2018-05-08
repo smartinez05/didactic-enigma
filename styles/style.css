@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    color: black;
+}
+/*div#foto-perfil {
+    background-image: url(/images/foto-sebastian.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 545px;
+    max-width: 726px;
+}*/
+
+@media (max-width: 1200px) {
+
+}

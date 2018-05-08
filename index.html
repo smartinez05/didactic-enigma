@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Hoja de Vida</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Bootstrap 3-->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
@@ -18,16 +19,14 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
     <!-- Fin Vue.js -->
     <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Hoja de Vida</title>
 </head>
-
 <body>
-    <div id="title">
+    <div id="title" class="jumbotron text-center">
         <h1>Hoja de Vida</h1>
     </div>
 
-    <div class="col-lg-6">
+    <div class="container col-lg-6">
         <h2>Información Personal</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit tempus placerat, dapibus blandit tempor habitasse sapien ultricies
             elementum ante, lacus euismod dui ullamcorper tristique facilisi eleifend quis. Porttitor ut condimentum dui
@@ -38,9 +37,9 @@
         </p>
     </div>
 
-    <div id="foto-perfil" class="col-md-6"></div>
+    <div id="foto-perfil" class="col-lg-6"><img class="img-responsive img-rounded" src="images/foto-sebastian.jpg" alt="Foto Sebastian Martínez"></div>
 
-    <div class="col-lg-4">
+    <div class="container col-lg-4">
         <h2>Perfil</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit tempus placerat, dapibus blandit tempor habitasse sapien ultricies
             elementum ante, lacus euismod dui ullamcorper tristique facilisi eleifend quis. Porttitor ut condimentum dui
@@ -51,7 +50,7 @@
         </p>
     </div>
 
-    <div class="col-lg-4">
+    <div class="container col-lg-4">
         <h2>Estudios</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit tempus placerat, dapibus blandit tempor habitasse sapien ultricies
             elementum ante, lacus euismod dui ullamcorper tristique facilisi eleifend quis. Porttitor ut condimentum dui
@@ -62,7 +61,7 @@
         </p>
     </div>
 
-    <div class="col-lg-4">
+    <div class="container col-lg-4">
         <h2>Experiencia</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipiscing elit tempus placerat, dapibus blandit tempor habitasse sapien ultricies
             elementum ante, lacus euismod dui ullamcorper tristique facilisi eleifend quis. Porttitor ut condimentum dui
