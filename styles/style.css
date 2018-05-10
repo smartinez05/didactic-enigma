@@ -6,13 +6,10 @@ body {
 p {
     color: black;
 }
-/*div#foto-perfil {
-    background-image: url(/images/foto-sebastian.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: 545px;
-    max-width: 726px;
-}*/
+
+img.foto-perfil {
+    width: 500px;
+}
 
 @media (max-width: 1200px) {
 
