@@ -3,14 +3,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-p {
-    color: black;
-}
 
 img.foto-perfil {
     width: 500px;
-}
-
-@media (max-width: 1200px) {
-
 }
